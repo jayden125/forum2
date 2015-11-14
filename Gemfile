@@ -22,6 +22,7 @@ gem 'pundit'
 gem 'simple_form'
 gem 'therubyracer', :platform=>:ruby
 gem 'upmin-admin'
+gem 'carrierwave'
 group :development do
   gem 'better_errors'
   gem 'foreman'
@@ -53,5 +54,3 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
-gem 'carrierwave'
-
