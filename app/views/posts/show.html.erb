@@ -7,12 +7,12 @@
 
 <p>
   <strong>Topic:</strong>
-  <%= @post.topic %>
+  <%= @post.topic.subject %>
 </p>
 
 <p>
   <strong>User:</strong>
-  <%= @post.user %>
+  <%= @post.user.name %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
